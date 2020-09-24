@@ -51,4 +51,4 @@ RUN set -x \
 EXPOSE 8080
 
 ENTRYPOINT ["dumb-init"]
-CMD ["traffic_cop", "--stdout"]
+CMD ["traffic_server"]

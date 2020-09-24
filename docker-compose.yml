@@ -1,0 +1,5 @@
+version: "3.8"
+
+services:
+  cache-server:
+    image: skyzh/ats-server:1.0
